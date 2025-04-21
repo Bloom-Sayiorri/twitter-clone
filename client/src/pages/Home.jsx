@@ -1,8 +1,8 @@
-import "../styles/home.module.css"
+import styles from "../styles/home.module.css"
 
 function Home() {
   return (
-    <div>Home</div>
+    <div className={styles.heading}>Home</div>
   )
 }
 
